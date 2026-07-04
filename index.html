@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para ti 💗</title>
+  <link rel="stylesheet" href="/CSS/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<audio id="bgMusic" src="/audio/cancion.mp3" loop></audio>
+<audio id="openSound" src="/audio/sobre.mp3"></audio>
+<audio id="birthdaySong" src="/audio/mananitas.mp3"></audio>
+<audio id="heartSound" src="/audio/pensamientos.mp3"></audio>
+<audio id="fotoAudio" src="/audio/Foto.mp3"></audio>
+
+
+  <div id="aurora" class="aurora"></div>
+  <div class="stars"></div>
+  <div id="particles"></div>
+  <div id="heartTrail"></div>
+
+  <div id="movingMessages"></div>
+  <div id="savedMessages"></div>
+
+  <main id="mainScreen" class="center">
+    <p class="chapter">OYEEEE AMOOORRRR!!!!</p>
+    <h1>Hay algo escondido para ti entre todos estos pensamientos...</h1>
+    <p class="hint">Y como todos los dias tu detienes ese ruido, </br>
+    Presiona el boton para que veas lo que estoy pensando</p>
+    <button id="mainBtn">Mi amor💗</button>
+  </main>
+
+  <section id="letterScreen" class="letter-screen hidden">
+    <div class="night-sky"></div>
+    <div class="envelope">💌</div>
+
+    <article class="letter-paper">
+      <h2>Mi carta para ti</h2>
+      <p id="typedLetter"></p>
+      <img id="letterPhoto" class="letter-photo hidden" src="" alt="Recuerdo bonito">
+      <button id="surpriseBtn" class="hidden">Vamos juntos 💗</button>
+    </article>
+  </section>
+
+  <section id="surpriseScreen" class="surprise-screen hidden">
+
+    <div class="polaroid">
+
+        <div class="tape"></div>
+
+        <img
+            src="/IMG/foto-especial.jpeg"
+            alt="Nosotros"
+            class="polaroid-photo">
+
+        <div class="polaroid-caption">
+            Pronto mi amor. ❤️
+        </div>
+
+    </div>
+
+    <p class="photo-message">
+        Gracias amor por permitirme pasar tiempo junto a ti.
+    </p>
+
+    <button id="finalBtn">
+        ❤️ Hay una última cosa...
+    </button>
+
+</section>
+
+</section>
+
+  <section id="finalScreen" class="final-screen hidden">
+    <div class="single-star">✦</div>
+    <h2>Feliz cumpleaños, mi amor.</h2>
+    <p>Te amo muchísimo. ❤️</p>
+  </section>
+
+  <script src="/JS/script.js"></script>
+</body>
+</html>
