@@ -1,17 +1,17 @@
 const messages = [
   { text: "Te amo", image: null },
   { text: "Gracias por existir", image: null },
-  { text: "Mi niña", image: "../IMG/foto1.jpeg" },
+  { text: "Mi niña", image: "IMG/foto1.jpeg" },
   { text: "Eres increíble", image: null },
-  { text: "Siempre", image: "../IMG/foto2.jpeg" },
-  { text: "Mi hogar", image: "../IMG/foto8.jpeg" },
-  { text: "Sabes cuando digo que me encanta tu sonrisa es verdad", image: "../IMG/foto3.jpeg" },
+  { text: "Siempre", image: "IMG/foto2.jpeg" },
+  { text: "Mi hogar", image: "IMG/foto8.jpeg" },
+  { text: "Sabes cuando digo que me encanta tu sonrisa es verdad", image: "IMG/foto3.jpeg" },
   { text: "Gracias por cuidarme incluso cuando no te lo pedía", image: null },
-  { text: "Contigo todo se siente mejor", image: "../IMG/foto6.jpeg" },
+  { text: "Contigo todo se siente mejor", image: "IMG/foto6.jpeg" },
   { text: "Eres mi persona favorita", image: null },
-  { text: "Me gusta verte disfrutar", image: "../IMG/foto7.jpeg" },
-  { text: "Me haces muy feliz", image: "../IMG/foto4.jpeg" },
-  { text: "Me encanta pasar el tiempo contigo", image: "../IMG/foto5.jpeg" }
+  { text: "Me gusta verte disfrutar", image: "IMG/foto7.jpeg" },
+  { text: "Me haces muy feliz", image: "IMG/foto4.jpeg" },
+  { text: "Me encanta pasar el tiempo contigo", image: "IMG/foto5.jpeg" }
 ];
 
 const letterParts = [
@@ -39,6 +39,7 @@ Y aunque tal vez este año no pueda estar contigo, quiero que sepas que siempre 
 
 const birthdaySong = document.getElementById("birthdaySong");
 const heartSound = document.getElementById("heartSound");
+const fotoAudio = document.getElementById("fotoAudio");
 const startDate = new Date("2025-11-18T20:00:00");
 
 const movingContainer = document.getElementById("movingMessages");
